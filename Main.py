@@ -111,6 +111,10 @@ while 1:
             group.upgrade_name(r, old_u, new_u)
             group.write_json()
 
+    elif CMD == "update password":
+        if DB_LOGIN is True:
+            pass
+
     elif CMD == 'config':
         os.system(r'.\Script\Notepad3.exe config.py')
         os._exit(1)
