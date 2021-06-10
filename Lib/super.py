@@ -161,7 +161,7 @@ if __name__ == "__main__":
     # f.crypt('./search.db', './search.db.bak')
     #    f.decrypt('./search.db.bak', './search.db')
     # new_json()
-    # a = d.verify('赵子淦', '123456')
+    # a = d.verify(' ', '123456')
     # print(a)
     # print(d.return_data('User', 'zzg', 'Authority')[2])
     # d.add_user('User', '皮得狠1', '000000', './search.db')
